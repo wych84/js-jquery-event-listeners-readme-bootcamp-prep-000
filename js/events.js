@@ -12,10 +12,10 @@ function frameIt () {
 
 function pressIt() {
   $('form').on('keydown', function() {
-    if ($'input'.val() === "G") {
-      alert("You put G!")
+    if ($('input').val() === "G") {
+      alert("You put G!");
     }
-  })
+  });
 }
 $(document).ready(function(){
 
