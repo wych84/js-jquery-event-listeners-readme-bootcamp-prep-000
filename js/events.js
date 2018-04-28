@@ -11,8 +11,8 @@ function frameIt () {
 }
 
 function pressIt() {
-  $('input').on('keydown', function() {
-    if ($('input').val() === "G") {
+  $('input').on('keydown', function(n) {
+    if ($(n) === "G") 
       alert("You put G!");
     }
   });
