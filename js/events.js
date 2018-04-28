@@ -12,7 +12,7 @@ function frameIt () {
 
 function pressIt() {
   $('input').on('keydown', function(n) {
-    if (n.which === "G") {
+    if (n.which === 71) {
       alert("You put G!");
     }
   });
